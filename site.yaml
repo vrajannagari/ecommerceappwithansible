@@ -1,0 +1,5 @@
+---
+- name: "Configure an ecommerce application"
+  hosts: db,web
+  roles:
+      - ecommerce
